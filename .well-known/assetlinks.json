@@ -1,5 +1,11 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.justgood.work",
+                 "sha256_cert_fingerprints": ["30:31:FC:BA:08:73:9F:61:5D:C3:F6:D2:7A:B5:80:CB:FA:32:F6:64:54:34:82:6A:10:1F:1C:71:5B:FF:85:F2"] }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
     "target" : { "namespace": "android_app", "package_name": "com.justgood.work.dev",
                  "sha256_cert_fingerprints": ["30:31:FC:BA:08:73:9F:61:5D:C3:F6:D2:7A:B5:80:CB:FA:32:F6:64:54:34:82:6A:10:1F:1C:71:5B:FF:85:F2"] }
-  }]
+  }
+]
